@@ -10,10 +10,20 @@ function Navbar() {
       <div className='navbar'>
         <div className="absolute">
           <div className='left'>
-              <div className='logo'>
+              
+          </div>
+          <div className="mid">
+            <div className="centreit">
+            <div className='logo'>
                 Trinal
               </div>
+          <div className="content">
+          
+              <h1>Trinal web</h1>
+              <p>Connecting WEB 3.0 in the Novel Era of Internet</p>
+              </div>
           </div>
+      </div>
           <div className='right'>
             <ul className='top'>
                 <li className='tags'>Home</li>
@@ -21,15 +31,9 @@ function Navbar() {
                 <li className='tags'>Service</li>
                 <li className='tags'>Contact Us</li>
             </ul>
+            
           </div>
-          <div className="mid">
-            <div className="centreit">
-          <div className="content">
-              <h1>Trinal web</h1>
-              <p>Connecting WEB 3.0 in the Novel Era of Internet</p>
-              </div>
-          </div>
-      </div>
+          
      
     </div>
     

@@ -8,6 +8,8 @@
 }
 
 .logo{
+    display: flex;
+    
     color: aliceblue;
     margin-top: 1rem;
 }
@@ -37,9 +39,14 @@
     cursor: pointer;
     
     color: aliceblue;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-family: 'Slabo 13px', serif;
+
     
     
+}
+.right{
+    position: relative;
 }
 
 video{
@@ -54,7 +61,7 @@ video{
 
 .mid{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     height: 100%;
     width: 100%;
     color: aliceblue;
@@ -76,11 +83,16 @@ video{
 }
 
 .content h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
 }
 
 .content p{
     font-size: 1.5rem;
+}
+
+.tags:hover{
+    background-color: black;
 }
 
 
